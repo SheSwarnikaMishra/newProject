@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&family=Iceland&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(107.29deg, #050A30 15.64%, #4699AB 180.36%);
+  overflow-x: hidden;
+
+}
+
+.bodyContainer{
+background: black;
+  overflow-x: hidden;
+  height:auto !important;
+  background-attachment :Scroll;
+  max-width:1920px;
+  width:100vw;
+}
+
+::-webkit-scrollbar{
+  width:7px;
+}
+
+/* ::-webkit-scrollbar-track{
+  background: #f1f1f1;
+} */
+
+::-webkit-scrollbar-thumb{
+  background:radial-gradient(101.73% 353.66% at 6.15% 1.94%, #75AAAF 0%, #43B4A9 28.64%, #77CCC8 71.08%, #98DCDD 100%);
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #555;
+}

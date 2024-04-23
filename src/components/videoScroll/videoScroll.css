@@ -1,0 +1,35 @@
+#set-height {
+  overflow: auto;
+  /* height: 10px; */
+  height: 100vh;
+  /* border: 1px solid red; */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+#set-height::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+#v0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+p font-family helvetica {
+  font-size: 24px;
+}
+
+.vidmob{
+  display: none;
+}
+
+@media only screen and (max-width:700px){
+  .vidweb{
+    display: none;
+  }
+  .vidmob{
+    display: block;
+  }
+}

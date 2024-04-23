@@ -1,0 +1,230 @@
+@import url(//db.onlinewebfonts.com/c/f5f6ff7f3ec1bc2c964b9a8d5122840b?family=Lab+Sans+Pro+Light);
+@font-face{
+    font-family: 'Lab Sans Pro Thin';
+    font-weight: normal;
+    src: local('Lab Sans Pro Thin'), url('../../lab-sans-pro-cufonfonts-webfont/Lab\ Sans\ Pro-Thin.woff') format('woff');
+}
+
+form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #message {
+    width: 41.791vw;
+height: 167.64px;
+    border-radius: 15px;
+    max-width:900px;
+  }
+
+  #message::placeholder{
+    color: #4699AB;
+    font-size: 32.1101px;
+    padding-left: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.04rem;
+
+}
+  #name::placeholder{
+    color: #4699AB;
+    font-size: 32.1101px;
+    padding-left: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.04rem;
+    position: relative;
+    top: 15%;
+
+
+}
+  #email::placeholder{
+    color: #4699AB;
+    font-size: 32.1101px;
+    padding-left: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.04rem;
+position: relative;
+top: 15%;
+
+}
+  #name{
+    width: 41.791vw;
+height: 45.65px;
+    border-radius: 15px;
+    max-width:900px;
+
+
+  }
+  #email{
+    width: 41.791vw;
+height: 45.65px;
+    border-radius: 15px;
+    max-width:900px;
+
+
+  }
+  
+  button[type="submit"] {
+    background: #008D9F;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 210.5px;
+height: 75.64px;
+font-family: 'Montserrat',sans-serif;
+font-weight: 400;
+/* letter-spacing: -0.22rem; */
+font-style: normal;
+font-size: 38px;
+line-height: 56px;
+text-align: center;
+
+/* color: #4699AB; */
+  }
+  
+  button[type="submit"]:hover {
+    background: #008D9F;
+    }
+
+  .contacthead{
+    font-family: 'Lab sans pro light',sans-serif;
+    font-weight: bolder;
+font-style: normal;
+font-size: 71.3558px;
+line-height: 80px;
+text-align: center;
+color: #00615C;
+
+  }
+
+
+  @media only screen and (max-width:900px){
+    #name{
+        width: 46.791vw;
+        height: 30.98px;
+        border-radius: 15px;
+    
+      }
+      #email{
+        width: 46.791vw;
+        height: 30.98px;
+        border-radius: 15px;
+    
+      }
+
+      #message {
+        width: 46.791vw;
+        height: 108.72px;
+        border-radius: 15px;
+      }
+
+      #message::placeholder{
+        color: #4699AB;
+        font-size: 22.4391px;
+        padding-left: 20px;
+    
+    }
+      #name::placeholder{
+        color: #4699AB;
+        font-size: 22.4391px;
+        padding-left: 20px;
+    
+    
+    }
+      #email::placeholder{
+        color: #4699AB;
+        font-size: 22.4391px;
+        padding-left: 20px;
+    
+    
+    }
+  }
+
+  @media only screen and (max-width:650px) {
+    #name{
+        width: 60vw;
+        height: 30.98px;
+        border-radius: 15px;
+    
+      }
+      #email{
+        width: 60vw;
+        height: 30.98px;
+        border-radius: 15px;
+    
+      }
+
+      #message {
+        width: 60vw;
+        height: 108.72px;
+        border-radius: 15px;
+      }
+
+      .contacthead{
+        font-size: 50px;
+      }
+
+      button[type="submit"]{
+        width:183px;
+        height:57px;
+        font-size: 35px;
+        line-height: 35px;
+      }
+
+      form{
+        gap:15px;
+      }
+
+      #message::placeholder{
+        color: #4699AB;
+        font-size: 20.4391px;
+        padding-left: 3px;
+    
+    }
+      #name::placeholder{
+        color: #4699AB;
+        font-size: 20.4391px;
+        padding-left: 3px;
+    
+    
+    }
+      #email::placeholder{
+        color: #4699AB;
+        font-size: 20.4391px;
+        padding-left: 3px;
+    
+    
+    }
+  }
+
+  @media only screen and (min-width:1800px){
+    form{
+      gap:32px;
+    }
+}

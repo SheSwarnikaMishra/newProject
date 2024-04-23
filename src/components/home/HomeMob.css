@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+@font-face {
+  font-family: "Lab Sans Pro Thin";
+  src: local("Lab Sans Pro Thin"),
+    url("../../lab-sans-pro-cufonfonts-webfont/Lab\ Sans\ Pro-Thin.woff")
+      format("woff");
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 751px) {
+  .mobHomemain {
+    display: none;
+  }
+  .homevideotext{
+    font-size: 10vw;
+  }
+  }
+
+@media only screen and (max-width: 750px) {
+  .mobHome1 {
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+  }
+  
+  .mobHome1img {
+    height: 90vh;
+    width: 100vw;
+    border-radius: 35px 24px 0px 0px;
+  }
+
+  .mobHome2img1 {
+    width: 425px;
+    height: 320px;
+    border-radius: 29px;
+  }
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .conttwohead {
+    font-style: normal;
+    font-weight: 250;
+    font-size: 30px;
+    line-height: 34px;
+
+    color: #ffffff;
+  }
+  .conttwodes {
+    font-style: normal;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    padding: 0 35px;
+    color: #ffffff;
+  }
+
+  .try {
+    font-family: "Iceland";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 39px;
+
+    color: #ffffff;
+  }
+
+  .videoo {
+    width: 317px;
+    height: 313px;
+    border-radius: 25px;
+  }
+
+  .mobHome3 {
+    margin-top: 7rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .videText {
+    font-family: "Lab Sans Pro Thin";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 34.7143px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  
+}
+
+@media only screen and (max-width: 475px) {
+  .mobHome2img1 {
+    width: 308px;
+    height: 308px;
+    border-radius: 29px;
+  }
+}
+
+

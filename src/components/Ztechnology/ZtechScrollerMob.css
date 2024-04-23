@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Lab Sans Pro Thin";
+  font-weight: bold;
+  src: local("Lab Sans Pro Thin"),
+    url("../../lab-sans-pro-cufonfonts-webfont/Lab\ Sans\ Pro-Thin.woff")
+      format("woff");
+}
+.parentContainer {
+  display: flex;
+  width: 100%;
+  /* overflow-x: scroll; */
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.child1 {
+  display: flex;
+  scroll-snap-align: start;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sliderContainer {
+  display: flex;
+  width: fit-content;
+  background: linear-gradient(1.97deg, #183354 10.2%, #070E21 57.8%);
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: none;
+  border-radius: 50px;
+}
+
+.conatinerBoxes {
+  width: 100%;
+  min-width: 100%;
+  padding-top: 20px;
+  /* height: 100vh; */
+  margin-bottom: 21vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.conatinerBoxes img {
+  width: 75vw;
+  height: 63vw;
+  border-radius: 20px;
+}
+
+/* .child2 {
+    flex: 0 0 100px;
+  } */
+
+.circleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+  /* background-color: #f0f0f0; */
+  position: absolute;
+  /* width:50%; */
+  margin-top:15%;
+}
+
+.circleContainer span {
+  position: absolute;
+  font-style: normal;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  letter-spacing: -0.04em;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* Optional: Add scrollbar styling */
+.parentContainer::-webkit-scrollbar {
+  width: 6px;
+}
+
+.parentContainer::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.parentContainer::-webkit-scrollbar-thumb:hover {
+  background-color: black;
+}
+
+.circleContainerParent{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conatinerBoxes span {
+  font-style: normal;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: justify;
+margin-top: 20px;
+  color: #ffffff;
+  padding: 0 10%;
+}
+
+.a1{
+  position: relative;
+  top: -30%;
+}
+.a2{
+  position: relative;
+  top: 16%;
+  left:-35%;
+}
+.a3{
+  position: relative;
+  top: 19%;
+    right: -43%;
+}
+.a4{
+  position: relative;
+  top: 114%;
+  left: 8%;
+}
+.a5{
+  position: relative;
+  top: 105%;
+  right: -36%;
+}
+
+.a2updated{
+  top: 44%;
+  left: -35%;
+}
+
+.a1updated{
+  top:-25%;
+  left:3%;
+}
+
+.activelinkbox{
+  color: #31b3c7 !important;
+  font-weight: 500 !important;
+font-size: 30px !important;
+}
+.a5updated{
+  top:100%;
+  right:-50%;
+}
+
+.newlink{
+  display: none;
+}
+
+.a12{
+  top: 53%;
+    left: -43%;
+}
+
+.newpoints{
+  top: 110% !important;
+  left: -8% !important;
+}

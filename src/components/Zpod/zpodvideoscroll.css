@@ -1,0 +1,30 @@
+.slider-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.slider-content {
+  display: flex;
+  height: 100%;
+  scroll-snap-type: x mandatory;
+}
+
+.slider-item {
+  flex: 0 0 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+/* Additional styling for demonstration purposes */
+.slider-item:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+.slider-item:nth-child(even) {
+  background-color: #ddd;
+}

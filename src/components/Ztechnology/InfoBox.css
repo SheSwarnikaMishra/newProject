@@ -1,0 +1,41 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info-box {
+    position: absolute;
+    background:rgba(22, 22, 22, 0.83);
+    border-radius: 15px;
+    padding: 20px;
+    z-index:2222;
+    max-width: 400px;
+  }
+  .info-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  .info-content-2 h2{
+    color:rgb(49, 195, 183);
+}
+
+  @media only screen and (max-width:700px){
+    .info-content-2 h2{
+        font-size: 5vw;
+    }
+    .info-content-2 div{
+        font-size: 3vw;
+    }
+  }
+  

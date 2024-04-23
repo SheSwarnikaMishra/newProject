@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
+@import url(//db.onlinewebfonts.com/c/f5f6ff7f3ec1bc2c964b9a8d5122840b?family=Lab+Sans+Pro+Light);
+
+.FooterMain{
+    width:100vw;
+    max-width:1920px;
+    height:600px;
+    /* background: linear-gradient(73.78deg, #0A142F 27.59%, #25506D 95.15%); */
+}
+
+.footerUl{
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding:0;
+    gap:4px;
+    margin-left: 1vw;
+}
+
+@media only screen and (max-width:700px){
+    .footerUl{
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.footerUl li::marker{
+  font-size: 12px;
+}
+
+.footerBox1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+   padding-top: 150px;
+   height:45%;
+
+}
+
+.fsub1{
+    width: 450px;
+/* height: 94px; */
+position: relative;
+top:-6%;
+}
+
+.fsub2{
+display: flex;
+justify-content: center;
+font-family: 'lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 27px;
+color: #FFFFFF;
+width:300px;
+padding-top: 9px;
+}
+
+.fsub2 div{
+   display: flex;
+   flex-direction:column;
+   justify-content: space-between;
+
+}
+.fsub2 div div{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+}
+
+.fsub3{
+    font-family: 'Alumni Sans', sans-serif;
+    /* padding-right:400px; */
+    font-style: normal;
+font-weight: 250;
+font-size: 24px;
+line-height: 183.9%;
+color: #FFFFFF;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width:30vw;
+}
+
+
+.line{
+    background: #FFFFFF;
+opacity: 0.25;
+border: 2px solid #FFFFFF;
+width: 80%;
+margin-left: 140px;
+}
+
+.footerBox2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+gap:7vw;
+}
+
+.fbsub1{
+    display: flex;
+    gap:16px;
+}
+.fbsub2{
+    margin-top: -5px;
+    display: flex;
+    gap:80px;
+    align-items: center;
+}
+
+.fbsub2 span{
+    font-family: 'lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.fsub1img{
+    width:21vw;
+    max-width:600px;
+}
+
+@media only screen and (max-width:1200px){
+    .fsub3{
+        line-height: 120.9%;
+    }
+    .fsub2{
+        width:210px;
+    }
+    .fsub1{
+        width:370px;
+    }
+}
+
+@media only screen and (max-width:965px){
+    .line{
+        margin-left:80px;
+    }
+    .fsub2{
+        font-size: 20px;
+    }
+    .fsub3{
+        font-size: 20px;
+    }
+    .fsub1{
+        width:290px;
+    }
+}
+
+
+@media only screen and (max-width:800px){
+    .fsub1{
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: unset;
+    }
+    .fsub2{
+        padding-top: 0px !important;
+         width:172px;
+    }
+    .fbsub1{
+        gap:20px;
+    }
+    .fbsub2{
+        gap:30px;
+    }
+    .FooterMain{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:685px){
+    .footerBox1{
+        align-items: center ;
+        flex-direction: column ;
+        justify-content: center;
+        gap:30px;
+        height: 80%;
+        padding-top: 15%;
+    }
+
+    .fsub3{
+        display: none;
+    }
+    
+    .fsub1img{
+        width: 170px;
+    }
+
+    .line{
+        margin-left: 27%;
+        width:250px;
+    }
+    .footerBox2{
+        flex-direction: column;
+        align-items: center;
+        padding:35px 0;
+    }
+    .fbsub2{
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    }
+
+    @media only screen and (max-width:580px){
+        .FooterMain{
+            height:auto;
+        }
+
+        
+    }
+
+    @media only screen and (max-width:460px){
+        .line{
+            margin-left: 18%;
+            width:250px;
+        }
+    }
+    @media only screen and (max-width:340px){
+        .line{
+            margin-left: 10%;
+            width:250px;
+        }
+    }

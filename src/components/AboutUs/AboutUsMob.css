@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "Lab Sans Pro Thin";
+    /* font-weight: normal; */
+    src: local("Lab Sans Pro Thin"),
+      url("../../lab-sans-pro-cufonfonts-webfont/Lab\ Sans\ Pro-Thin.woff")
+        format("woff");
+  }
+
+.demovideo{
+    width:100vw;
+    height:376px;
+}
+
+.aboutUsMobSecond{
+    min-height: 100vh;
+    height:auto;
+    width:100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutUsMobSecondHead{
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.aboutUsMobSecondText{
+    font-style: normal;
+    font-family: "lato",sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+padding: 0 27px;
+}
+
+.aboutUsMobSecond div img{
+    width:80vw;
+    /* height:32vh; */
+    border-radius: 27px;
+}
+
+
+.aboutUsMobThird{
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aboutUsMobThirdMain{
+    font-family: Montserrat;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    font-style: normal;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.aboutUsMobThirdInfo1{
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    letter-spacing: -0.03em;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+color:#ffffff;
+
+}
+
+.aboutUsMobThirdInfo2{
+    font-style: normal;
+    font-family: "lato",sans-serif;
+    font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+}
+
+.aboutUsMobThirdText{
+    font-style: normal;
+    font-family: "lato",sans-serif;
+    font-weight: 300;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+padding:0 12vw;
+
+}
+
+.aboutUsMobThirdImgContainer{
+    border: 1.6662px solid #FFFFFF;
+    /* filter: blur(1.3885px); */
+        border-radius: 19.439px;
+}
+
+.aboutUsMobThirdBox{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutUsMobThirdImg{
+    width:70vw;
+    /* height:45vh; */
+    padding: 8px 8px ;
+}
+
+.aboutUsMobThirdImgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutFourthBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 70vh;
+    height: auto;
+    width: 100vw;
+}
+
+.aboutFourthBoxImage{
+    width:100vw;
+}
+
+.aboutFourthBoxText{
+    font-style: normal;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.aboutFourthBoxButton{
+    background: #21A494;
+border-radius: 5.3252px;
+font-style: normal;
+font-family: "Lab Sans Pro Thin";
+    font-weight: 900;
+font-size: 17.7507px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+border:none;
+cursor:pointer;
+width: 101.18px;
+height: 25.92px;
+}
+.aboutLastButton{
+    background: #21A494;
+border-radius: 5.3252px;
+font-style: normal;
+font-family: "Lab Sans Pro Thin";
+    font-weight: 900;
+font-size: 17.7507px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+border:none;
+cursor:pointer;
+width: 101.18px;
+height: 25.92px;
+position: relative;
+top:-5em;
+left:20px;
+}
+
+.aboutLastBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width:370px){
+    .aboutLastButton{
+        top:-3em;
+    }
+}

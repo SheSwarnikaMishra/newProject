@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500&display=swap");
+@font-face{
+    font-family: 'Lab Sans Pro Thin';
+    font-weight:normal;
+    src: local('Lab Sans Pro Thin'), url('../../lab-sans-pro-cufonfonts-webfont/Lab\ Sans\ Pro-Thin.woff') format('woff');
+}
+
+@media only screen and (max-width:700px){
+
+    .homeCarouselMain{
+        display: flex;
+        
+        opacity: 0;
+        min-height: 100vh;
+        margin-top: -60%;
+        height: auto;
+        /* border:2px solid white; */
+    }
+}
+    
+.homeCarouselLeft{
+    height: 100vh;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 12vw;
+    /* border: 2px solid red; */
+}
+
+.homeCarouselLeft div{
+    font-family: 'Lab Sans Pro Thin';
+    font-weight: bolder;
+    display: none;
+    font-style: normal;
+font-size: 200px;
+line-height: 224px;
+color: #FFFFFF;
+}
+
+.homeCarouselCenter{
+    width:4%;
+    height:100vh;
+    padding-left: 3%;
+    /* border:2px solid pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+}
+
+.homeCarouselCenter div{
+    background-color: grey;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    
+}
+
+.homeCarouselRight{
+    height: 100vh;
+    
+    width:48%;
+    /* border:2px solid yellow; */
+}
+.homeCarouselRightSub{
+   min-height:100vh;
+    /* border:2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .homeCarouselRight::-webkit-scrollbar-thumb {
+    background:none;
+} */
+
+.homeCarouselRightSub div img{
+    height:25vw !important;
+    width:100% !important;
+}
+
+.fixed1{
+    position: fixed;
+    top: 0;
+}
+.fixed2{
+    position: fixed;
+    top: 0;
+    left:48%;
+    padding-left: 0%;
+}
+
+.fixed3{
+    position: relative;
+    left:52%;
+
+}
+
+.active1{
+    background-color:white !important;
+}
+
+.display1{
+    display: flex !important;
+}
+
+.visibility1{
+    opacity: 1;
+}
+
+
+.translate1{
+    transform: translateY(-95vh);
+    transition:transform 0.6s ease;
+}
+.translate2{
+    transform: translateY(-95vh);
+    transition:transform 0.6s ease;
+}
+.translate3{
+    transform: translateY(-95vh);
+    transition:transform 0.6s ease;
+}
+
+
+
+  .hcrsText{
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    font-style:normal;
+font-size: 24px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+padding: 0 20px;
+min-width: 70vw;
+  }
+/* @media only screen and (max-width:1200px){
+    .homeCarouselLeft{
+        padding-left: 4vw;
+    }
+} */
+
+  @media only screen and (max-width:1050px){
+    .homeCarouselRightSub div img{
+        height:54vh;
+        width:40vw;
+    }
+
+    .homeCarouselLeft div{
+        font-size: 140px;
+    }
+  }
+  @media only screen and (max-width:930px){
+    .homeCarouselRightSub div img{
+        height:44vh;
+        width:41vw;
+    }
+
+  }
+
+
+  @media only screen and (max-width:800px){
+    .fixed2{
+        left:90%;
+    }
+    .i2{
+        position: relative;
+        left: -79px;
+        top:0px;
+      }
+      #slide3mob{
+        position: relative;
+        top: 10%;
+        justify-content: center;
+        gap: 6%;
+    }
+    .homeCarouselCenter{
+        width:10%;
+        position: relative;
+        /* left:90%; */
+        left: 45%;
+    top: 48vh;
+        flex-direction: row;
+    }
+    .fixed3{
+        left: 0%;
+        margin-left: 2.5%;
+        padding:0 10%;
+    }
+
+    .homeCarouselRight{
+        /* width:100% !important; */
+        position: relative;
+        /* left:1%; */
+        display: flex;
+    gap: 20vw;
+    }
+    .homeCarouselRightSub div img {
+        width: 80vw !important;
+        height: 80vw !important;
+    }
+
+    .hcrsHead{
+        font-style: normal;
+        font-family: 'Lab Sans Pro Light',sans-serif;
+        font-weight:bolder;
+font-size: 60px;
+line-height: 34px;
+
+color: #FFFFFF;
+    }
+    .homeCarouselRight {
+        scroll-snap-type: x mandatory;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        transition: scroll 0.6s ease;
+        transition: scroll-snap-type 0.6s ease;
+      }
+      
+      .homeCarouselRightSub {
+        scroll-snap-align: start;
+      }
+  }
+
+  @media only screen and (max-width:450px){
+    
+    .videoText{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .hcrsText{
+        font-size: 14px;
+line-height: 18px;
+    }
+    .i2 {
+        left: 11% !important;
+        top: -4px !important;
+    }
+    .i3 {
+        position: relative;
+        left: 9% !important;
+        top: 7px;
+    }
+  }
+
+  .fix{
+    position: fixed !important;
+    left: 34% !important;
+    top: 55% !important;
+  }
+
+  .positioning{
+    position: relative;
+    top: -10%;
+  }

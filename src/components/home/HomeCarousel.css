@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500&display=swap");
+@font-face{
+    font-family: 'Lab Sans Pro Thin';
+    font-weight: bold;
+    src: local('Lab Sans Pro Thin'), url('../../lab-sans-pro-cufonfonts-webfont/Lab\ Sans\ Pro-Thin.woff') format('woff');
+}
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+.poso{
+    position: absolute;
+    left:45%;
+}
+.poso2{
+    position: absolute;
+    /* right:-6%; */
+    left: 53%;
+}
+.homeCarouselMain{
+    display: flex;
+
+   opacity: 0 !important;
+   visibility: visible !important;
+    min-height: 110vh;
+    height: auto;
+    /* background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 29.17%); */
+    /* border:2px solid white; */
+}
+
+.homeCarouselLeft{
+    height: 100vh;
+    width: 33.1% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15vw;
+    /* border: 2px solid red; */
+}
+
+.homeCarouselLeft div{
+    font-family: 'Lab Sans Pro Thin';
+    font-weight: bolder;
+visibility: hidden;    font-style: normal;
+font-size: 200px;
+line-height: 224px;
+color: #FFFFFF;
+}
+
+.homeCarouselCenter{
+    width:4%;
+    height:100vh;
+    /* border:2px solid pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:18px !important;
+}
+
+.homeCarouselCenter div{
+    background-color: grey;
+    border-radius: 50%;
+    height: 16px !important;
+    width: 16px !important;
+    
+}
+
+.homeCarouselRight{
+    height: 100vh;
+    padding-right: 46px;
+    width:auto !important;
+    /* border:2px solid yellow; */
+}
+.homeCarouselRightSub{
+    height:100vh;
+    /* border:2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .homeCarouselRight::-webkit-scrollbar-thumb {
+    background:none;
+} */
+
+.homeCarouselRightSub div img{
+    height:25vw !important;
+    width:100%;
+}
+
+.fixed1{
+    position: fixed;
+    top: 0;
+}
+.fixed2{
+    position: fixed;
+    top: 0;
+    left:48%;
+}
+
+.fixed3{
+    position: relative;
+    width:100%;
+    margin-left: -54%;
+    padding:0 53%;
+}
+
+.active1{
+    background-color:white !important;
+}
+
+.display1{
+visibility: visible !important;
+}
+
+.visibility1{
+    opacity: 1 !important;
+    transition: opacity 0.2s ease-in-out !important;
+}
+
+
+.translate1{
+    transform: translateY(-95vh);
+    transition:transform 0.6s ease;
+}
+.translate2{
+    transform: translateY(-95vh);
+    transition:transform 0.6s ease;
+}
+.translate3{
+    transform: translateY(-95vh);
+    transition:transform 0.6s ease;
+}
+
+.homeCarouselRight {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+     }
+  
+  .scrollsnap {
+    scroll-snap-align:start;
+  }
+
+  .hcrsTextweb{
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    font-style:normal;
+font-size: 19px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+padding: 0 13% 0 14%;
+
+  }
+
+  .i1{
+    position: relative;
+    left: -58px;
+    top: 1px;
+  }
+  .i2{
+    position: relative;
+    left: -79px;
+    top:-10px;
+  }
+  .i3{
+    position: relative;
+    left: -56px;
+    top:-2px;
+  }
+
+@media only screen and (max-width:1350px){
+    
+    .i1,.i2,.i3{
+        width:33vw;
+    }
+}
+
+
+  @media only screen and (max-width:1050px){
+    .homeCarouselRightSub div img{
+        height:54vh;
+        width:40vw;
+    }
+
+    .homeCarouselLeft div{
+        font-size: 140px;
+    }
+  }
+  @media only screen and (max-width:930px){
+    .homeCarouselRightSub div img{
+        height:44vh;
+        width:41vw;
+    }
+
+  }
+
+  @media only screen and (min-width:1500px){
+    .hcrsText{
+        font-size: 32px;
+        line-height: 39px;
+    }
+  }
+  @media only screen and (max-width:800px){
+    .i1,.i2,.i3{
+        width:25vw;
+    }
+
+  }
+
+  @media only screen and (min-width:2300px){
+    .homeCarouselRightSub {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        left: -186px;
+    }
+    .homeCarouselRightSub div img {
+        height: 17vw !important;
+        width: 100% !important;
+    }
+    .fixed3 {
+        position: relative;
+        left: 61% !important;
+    }
+  }
+

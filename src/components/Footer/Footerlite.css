@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
+@import url(//db.onlinewebfonts.com/c/f5f6ff7f3ec1bc2c964b9a8d5122840b?family=Lab+Sans+Pro+Light);
+
+.FooterMainlite{
+    width:100vw;
+    height:476px;
+    /* background: linear-gradient(73.78deg, #0A142F 27.59%, #25506D 95.15%); */
+    background: linear-gradient(181.91deg, #A9F1FB 1.62%, #FDFDFD 122.27%) !important;
+}
+
+.footerUllite{
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding:0;
+    gap:4px;
+}
+
+.footerUllite li::marker{
+  font-size: 12px;
+}
+
+.footerBox1lite{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+   padding-top: 150px;
+   height:45%;
+
+}
+
+.fsub1lite{
+    width: 450px;
+/* height: 94px; */
+position: relative;
+top:-30%;
+}
+
+.fsub2lite{
+display: flex;
+justify-content: center;
+font-family: 'Lab sans pro light',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 27px;
+color: #000000;
+width:300px;
+padding-top: 9px;
+}
+
+.fsub2lite div{
+   display: flex;
+   flex-direction:column;
+   justify-content: space-between;
+
+}
+.fsub2lite div div{
+    font-family: 'Lab sans pro light',sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.fsub2lite ul li{
+    font-size:24px !important;
+}
+
+.fsub3lite{
+    font-family: 'Alumni Sans', sans-serif;
+    /* padding-right:400px; */
+    font-style: normal;
+font-weight: 250;
+font-size: 24px;
+line-height: 183.9%;
+color: #FFFFFF;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width:30vw;
+}
+
+
+.linelite{
+    background: #FFFFFF;
+opacity: 0.25;
+border: 2px solid #000000;
+width: 80%;
+margin-left: 140px;
+}
+
+.footerBox2lite{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 9px;
+
+}
+
+.fbsub1lite{
+    display: flex;
+    gap:24px;
+}
+.fbsub2lite{
+    padding-top: 9px;
+    display: flex;
+    gap:80px;
+}
+
+.fbsub2lite span{
+    font-family: 'Lab sans pro light',sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+}
+
+.fsub1imglite{
+    width:30vw;
+    max-width:600px;
+}
+
+@media only screen and (max-width:1200px){
+    .fsub3lite{
+        line-height: 120.9%;
+    }
+    .fsub2lite{
+        width:210px;
+    }
+    .fsub1lite{
+        width:370px;
+    }
+}
+
+@media only screen and (max-width:965px){
+    .linelite{
+        margin-left:80px;
+    }
+    .fsub2lite{
+        font-size: 20px;
+    }
+    .fsub3lite{
+        font-size: 20px;
+    }
+    .fsub1lite{
+        width:290px;
+    }
+}
+
+
+@media only screen and (max-width:800px){
+    .fsub1lite{
+        width:245px;
+    }
+    .fsub2lite{
+        padding-top: 0px !important;
+         width:172px;
+    }
+    .fbsub1lite{
+        gap:9px;
+    }
+    .fbsub2lite{
+        gap:30px;
+    }
+}
+
+@media only screen and (max-width:685px){
+    .footerBox1lite{
+        align-items: center ;
+        flex-direction: column ;
+        justify-content: center;
+        gap:30px;
+        height: 80%;
+        padding-top: 15px;
+    }
+
+    .fsub3lite{
+        display: none;
+    }
+    
+    .fsub1imglite{
+        width: 170px;
+    }
+
+    .linelite{
+        margin-left: 27%;
+        width:250px;
+    }
+    .footerBox2lite{
+        flex-direction: column;
+        align-items: center;
+        padding:35px 0;
+    }
+    .fbsub2lite{
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    }
+
+    @media only screen and (max-width:580px){
+        .FooterMainlite{
+            height:auto;
+        }
+
+        
+    }
+
+    @media only screen and (max-width:460px){
+        .linelite{
+            margin-left: 18%;
+            width:250px;
+        }
+    }
+    @media only screen and (max-width:340px){
+        .linelite{
+            margin-left: 10%;
+            width:250px;
+        }
+    }

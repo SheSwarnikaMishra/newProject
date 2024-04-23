@@ -1,0 +1,746 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500&display=swap");
+@font-face {
+  font-family: "Lab Sans Pro Thin";
+  src: local("Lab Sans Pro Thin"),
+    url("../../lab-sans-pro-cufonfonts-webfont/Lab\ Sans\ Pro-Thin.woff")
+      format("woff");
+}
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url(//db.onlinewebfonts.com/c/f5f6ff7f3ec1bc2c964b9a8d5122840b?family=Lab+Sans+Pro+Light);
+
+.aboutUsMain {
+  /* background-image: url("/public/culture.webp");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: -6%;
+}
+
+.aboutUsMainText {
+  font-family: "Lab Sans Pro Thin";
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 112px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.aUSecond{
+  background: linear-gradient(179.84deg, #000000 2.78%, #152B4A 95.47%);
+  min-height: 100vh;
+  height: auto;
+}
+
+.aboutUsMainButton {
+  background: #21a494;
+  border-radius: 20px;
+  border: none;
+  font-family: "Lab Sans Pro Thin";
+  font-weight: bolder;
+  width: 309px;
+  height: 79px;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 62px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.aboutUsSecondA {
+  background: transparent;
+  border-radius: 0px 0px 54px 54px;
+  text-align: center;
+  padding: 100px 22vw 0px 22vw;
+  margin-top: -5px;
+}
+
+.aboutUsSecondTextnew {
+  font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  /* letter-spacing: 0em; */
+  color: #ffffff;
+}
+
+.aboutUsSecond {
+  /* background: linear-gradient(183.75deg, #050A30 34.93%, #4699AB 373.46%); */
+  height: auto;
+}
+
+.aUSecondHead {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+    font-style: normal;
+  font-size: 90px;
+  line-height: 101px;
+  text-align: center;
+  color: #ffffff;
+  padding: 4rem 0 3.5rem 0;
+}
+
+.aUSecondImg {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 27px;
+  width:40vw;
+  max-width: 820px;
+  height: auto;
+}
+
+.aUSecondBoxText {
+  font-family: "lato",sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.buttoninfo{
+  /* background: linear-gradient(116.8deg, rgba(252, 252, 252, 0.32) -10.33%, rgba(252, 252, 252, 0.165) 117.99%); */
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+border: 1px solid rgba(153, 249, 237, 1);
+    color: white;
+    width: 9rem;
+    height: 3rem;
+    font-size: 19px;
+    font-family: "lato",sans-serif;
+    cursor:pointer;
+    /* background: linear-gradient(to right, #00FFA3, #DC1FFF); */
+
+    background: linear-gradient(95.6deg, rgba(65, 255, 232, 0.5) -18.68%, rgba(65, 255, 232, 0.63) -18.67%, rgba(164, 239, 255, 0.25) 135.68%);
+}
+
+
+.aUSecondBox {
+  display: flex;
+  flex-direction: row;
+  padding: 0 110px;
+  gap: 60px;
+}
+
+.aUSecondSub1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aUSecondSub2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aUThird {
+  min-height: 120vh;
+  height: auto;
+  width: 100vw;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background: black; */
+  /* background: linear-gradient(1.97deg, #070E21 10.2%, #183354 99.16%); */
+  
+background: linear-gradient(1.97deg, #070E21 10.2%, #183354 99.16%);
+  padding-top:5%;
+}
+
+.aUThirdHeading {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  font-style: normal;
+  font-size: 90px;
+  line-height: 101px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.aUThirdmid{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.texter{
+  font-style: normal;
+  font-family: 'Montserrat';
+    font-weight: 400;
+    letter-spacing: -0.03em;
+font-size: 45px;
+line-height: 50px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.texter2{
+  font-family: 'lato',sans-serif !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+
+}
+
+.spacing{
+  gap:10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 440px;
+  border: 3px solid #ffffff;
+  border-radius: 35px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* text-align: center; */
+
+
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+@media only screen and (min-width:700px){
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+}
+
+/* .flip-card .flip-card-inner {
+  transform: rotateY(180deg);
+} */
+.selected1 .card1 {
+  transform: rotateY(180deg);
+}
+.selected2 .card2 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-1,
+.flip-card-back {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-front-2,
+.flip-card-back {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-1 {
+  /* background-color: #bbb; */
+  color: black;
+  background: url("/public/gagan.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+.flip-card-front-2 {
+  /* background-color: #bbb; */
+  color: black;
+  background: url("/public/guru.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+.guru{
+  background: url("/public/guruhover.webp") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.flip-card-back {
+  border-radius: 30px;
+  background: url("/public/gaganhover.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding-left: 15px; */
+  /* font-style: normal; */
+  /* font-family: "Lab Sans Pro Thin";
+  font-weight: bold; */
+  /* font-size: 20px; */
+  /* line-height: 22px; */
+  /* text-align: center; */
+}
+
+.flipCardBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23vw;
+}
+
+.aUFourth {
+  margin-top: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.aUFourthTriangle {
+  width: 492.63px;
+  height: 459.45px;
+}
+
+.zoom-in {
+  animation: zoomIn 2s ease-in-out 1;
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.aUFourthBox {
+  display: flex;
+  /* align-items: center; */
+  margin-top: -132vh;
+  min-height: 300vh;
+  height: auto;
+  gap: 100px;
+  padding: 3rem 100px 0 100px;
+
+  background-attachment: scroll !important;
+}
+
+.aUFourthBoxChild1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 45vw;
+  height: 85vh;
+  font-family: "Lab Sans Pro Thin";
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 67px;
+  /* text-align: center; */
+  color: #ffffff;
+}
+
+.aUFourthBoxChild1 div:nth-child(even) {
+  display: flex;
+  justify-content: flex-end !important;
+}
+.timemob{
+  display: none;
+}
+.aUFourthBoxChild2 {
+  display: flex;
+  flex-direction: column;
+  width: 48vw;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 100vh;
+}
+
+.aUFourthBoxChild2Head {
+  font-family: "Lab Sans Pro Thin";
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 90px;
+  line-height: 101px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.aUFourthBoxChild2Text {
+  font-family: "Lab Sans Pro Thin";
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.aUFourthBox {
+  opacity: 0 !important;
+  transition: opacity 0.5s !important;
+  border: 2px solid red;
+}
+
+.visible11 {
+  opacity: 1 !important;
+}
+
+.fixPosition {
+  position: fixed;
+}
+
+.aUFourth.fixPosition {
+  top: 50px; /* Adjust the top position as needed */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  overflow-y: auto;
+}
+
+.aboutUsBack1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* .aboutUsBack1 img {
+  width: 100vw;
+  height: 585px;
+} */
+
+.aboutUsBack1 div {
+  /* margin-top:-290px; */
+  top: 0rem;
+  font-style: normal;
+  font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 56px;
+  line-height: 90px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-top: 3%;
+}
+.aboutUsMobSecond{
+  display: none !important;
+}
+.lastButton {
+  /* margin-top: 40px; */
+  top: 10rem;
+  left:14%;
+  position: relative;
+  background: linear-gradient(133deg, rgba(147, 199, 192, 0.50) 1.22%, rgba(0, 255, 224, 0.63) 1.23%, rgba(27, 48, 52, 0.45) 100%);
+    border-radius: 10px;
+  width: 251px;
+  height: 70px;
+  border: 1.6px solid rgb(174,234,227);
+  cursor: pointer;
+
+  font-style: normal;
+  font-family: 'Lato';
+    font-weight: 300;
+  font-size: 40px;
+  letter-spacing: -0.01px;
+  line-height: 46px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.aboutUsBack2 img {
+  width: 100vw;
+  height: 399px;
+}
+
+.lastButtonsecond {
+  width: 210px;
+  height: 65px;
+  background: #21a494;
+  border-radius: 10px;
+
+  font-style: normal;
+  font-family: "Lab Sans Pro Thin";
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  top: 18rem;
+  right: 22%;
+}
+
+.aboutUsBack2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  position: relative;
+}
+
+.aboutUsBack2 div {
+  position: absolute;
+  font-style: normal;
+  font-family: "Lab Sans Pro Thin";
+  font-weight: bolder;
+  font-size: 60px;
+  line-height: 67px;
+  text-align: center;
+  padding-right: 4vw;
+  color: #0c183c;
+}
+
+.aboutusmob {
+  display: none !important;
+}
+
+.zoomMob{
+  display: none;
+}
+
+@media only screen and (max-width: 1400px) {
+  .aUSecondBoxText {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .aUSecondBox {
+    padding: 0px 65px;
+  }
+  .aUSecondImg {
+    width: 561px;
+    height: 487px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .aUSecondBoxText {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .aUSecondBox {
+    padding: 0px 30px;
+  }
+  .aUSecondImg {
+    width: 460px;
+    height: 413px;
+  }
+  .aboutUsMainText {
+    font-size: 55px;
+  }
+  .aboutUsSecondTextnew {
+    font-size: 50px;
+  }
+  .flipCardBox {
+    gap: 13vw;
+  }
+  .aboutUsBack1 div {
+    font-size: 40px;
+  }
+
+  .aboutUsBack2 div {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .aUSecondBoxText {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .lastButton{
+    right:35%;
+  }
+  .aUSecondBox {
+    padding: 0px 20px;
+  }
+  .aUSecondImg {
+    width: 382px;
+    height: 350px;
+  }
+  .flipCardBox {
+    gap: 9vw;
+  }
+  .flip-card {
+    width: 300px;
+    height: 300px;
+  }
+  .aboutUsBack1 div {
+    font-size: 36px;
+  }
+  .aboutUsBack2 div {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .aUSecondBoxText {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .aUSecondBox {
+    padding: 0px 20px;
+  }
+  .aUSecondImg {
+    width: 318px;
+    height: 300px;
+  }
+  .aboutUsSecondTextnew {
+    font-size: 40px;
+  }
+  .aUThirdHeading {
+    font-size: 10vw;
+    font-weight: 500;
+    line-height: 0px;
+  }
+
+  .aboutUsBack1 div {
+    font-size: 27px;
+  }
+  .aboutUsBack2 div {
+    font-size: 33px;
+    line-height: 49px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+.aboutUsMain{
+  min-height: auto;
+  margin-top: 0%;
+}
+.aboutUsMobSecond{
+  display: flex !important;
+}
+.aboutUsSecondTextnew {
+  font-size: 4vw;
+  line-height: 4vw;
+}
+
+.zoomWeb{
+  display: none;
+}
+.zoomMob{
+  display: block;
+}
+.aboutUsSecondA {
+  padding: 21px 12vw;
+}
+.aUSecond{
+  display: none;
+}
+.aboutUsMobSecond {
+  background: linear-gradient(179.84deg, #000000 2.78%, #152B4A 95.47%);
+}
+.aboutUsMobSecondText {
+  padding: 0 10% !important;
+}
+.flip-card {
+  width: 140px;
+  height: 170px;
+  border-radius: 10px;
+}
+.flip-card-front-1 {
+  border-radius: 10px;
+}
+.flip-card-front-2 {
+  border-radius: 10px;
+}
+
+.flip-card-back{
+  border-radius: 10px;
+}
+.aboutUsMobThirdInfo1 {
+  font-size: 4vw !important;
+  line-height: 2vw !important;
+}
+.buttoninfo {
+  width: 8rem;
+  height: 2.1rem;
+  font-size:16px;
+  font-weight: 300;
+  border: 0.3px solid transparent;
+
+}
+.aboutUsBack1 img {
+  width:190vw !important;
+  height:auto;
+}
+.aboutUsBack1 div {
+  font-size: 6vw;
+  line-height: 6vw;
+  padding: 0 10%;
+  top: 2rem;
+}
+.lastButton{
+  position: unset;
+  margin-top: 30%;
+  width: 185px;
+    height: 49px;
+    font-size: 30px;
+}
+.timeweb{
+  display: none;
+}
+.timemob{
+  display: block;
+}
+}
+
+@media only screen and (max-width:450px){
+  .aUThird {
+    height: 75vh;
+    min-height: auto;
+    padding-top: 0%;
+}
+}
+
+@media only screen and (max-width:640px){
+  .lastButton{
+margin-top:35%;
+  }
+}
+
+@media only screen and (min-width:2200px){
+  .aboutUsSecondA {
+    padding: 21px 10vw;
+}
+}

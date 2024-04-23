@@ -1,0 +1,88 @@
+.homeMobSlider1{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    width: 80vw;
+    gap:23vw;
+    /* padding-left: 10%; */
+}
+.homeMobSlider3{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 80vw;
+    gap:10%;
+    /* padding-left: 10%; */
+}
+.homeMobSlider3 div{
+    width: 100vw;
+}
+
+.homeMobSlider2 {
+    display: flex;
+    width: 45vw;
+    padding: 0px 0%;
+    gap: 0%;
+    margin-left: 12%;
+}
+
+
+
+
+.homemobslider-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 7rem;
+  }
+  
+  .homemobslider-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .homeMobSlider1,
+  .homeMobSlider2,
+  .homeMobSlider3 {
+    scroll-snap-align: start;
+    scroll-snap-type: x mandatory;
+
+  }
+  
+@media only screen and (max-width:700px){
+    .i3,.i2{
+        position: unset !important;
+    }
+    .i1{
+        top: 3px !important;
+    }
+    .hcrsText {
+        font-size: 16px;  
+    }
+    .homeCarouselCenter {
+        width: 10%;
+        position: relative;
+        left: 0%; 
+        left: 0%;
+         top: 3.5vh;
+        flex-direction: row;
+        height: 0vh;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:800px){
+    .zrobo{
+        padding-left: 35% !important;
+    }
+    .homeMobSlider1 {  
+        gap: 50vw;
+    }
+    .finalpod{
+padding-left: 35% !important;
+    }
+}

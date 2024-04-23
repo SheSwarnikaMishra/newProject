@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
+@font-face{
+    font-family: 'Lab Sans Pro Thin';
+    font-weight: bold;
+    src: local('Lab Sans Pro Thin'), url('../../lab-sans-pro-cufonfonts-webfont/Lab\ Sans\ Pro-Thin.woff') format('woff');
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+.careerMain{
+    /* background-image: url('/public/careerback.webp');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    min-height:90vh ;
+    max-width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:80px;
+    background-color: black;
+}
+
+.carouselItem {
+    width: 300px; /* Adjust the width as per your requirement */
+    margin-right: 20px; /* Add margin between carousel items */
+  }
+
+.aboutUsMainText{
+    font-family: 'Lab Sans Pro Thin';
+    font-weight: bolder;
+font-style: normal;
+font-size: 125px;
+line-height: 168px;
+text-align: center;
+color: #ffffff;
+}
+.aboutUsSecondB{
+    background: #000615;
+}
+.aboutUsMainButton{
+    background: #21A494;
+border-radius: 20px;
+border:none;
+font-family: 'Lab Sans Pro Thin';
+    font-weight: bolder;
+width: 309px;
+height: 79px;
+font-style: normal;
+font-size: 55px;
+line-height: 62px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.aboutUsSecondA{
+    /* background: #21A494; */
+border-radius: 0px 0px 54px 54px;
+text-align: center;
+padding: 10px 19vw;
+}
+
+.careerSecondTextnew{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    letter-spacing: -0.03em;
+font-size: 1.5vw;
+line-height: 38px;
+text-align: center;
+/* letter-spacing: 0.07em; */
+color: #FFFFFF;
+}
+
+.careerSecond{
+    /* background:linear-gradient(73.78deg, #0A142F 27.59%, #25506D 95.15%); */
+    min-height: 70vh;
+    height:auto;
+    background: linear-gradient(181.8deg, #000000 20.84%, #000C2A 98.47%);
+}
+
+.careerSecond {
+    position: relative;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+  }
+  
+  .horizontalCar {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .horizontalImagesnew {
+    width: 100%;
+    height: auto;
+  }
+  
+  .fixedPosition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .marginTop{
+    margin-top: 100vh;
+  }
+  .carouselItem {
+    flex: 0 0 auto;
+    width: 500px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.horizontalCar{
+    display: flex;
+    position: sticky !important;
+    top:0 !important;
+    overflow-x: scroll;
+    gap:0px !important;
+    padding-top:3%;
+    height: 90vh;
+    column-gap: 3% !important;
+}
+
+.horizontalCar::-webkit-scrollbar {
+    display: none;
+  }
+
+.horizontalImagesnew{
+    width: 10vw;
+    margin-left: 35%;
+    /* border-radius: 40px;
+    padding-left: 55px; */
+    /* border: 5.23001px solid #85FFF0; */
+    border-radius: 29.8858px;
+}
+
+.horizontalCar div:nth-child(even){
+    margin-top: 0px !important;
+}
+
+.whatweoffer{
+    font-family: 'Montserrat', sans-serif;
+font-weight: 500 !important;
+font-style: normal;
+font-size: 50px !important;
+    text-align: center;
+line-height: 112px;
+padding:0 !important;
+color: white !important;
+/* color: rgb(49, 195, 183) !important; */
+}
+
+.imgBottomText{
+    font-family: 'lato',sans-serif !important;
+    font-weight: 300;
+    position: relative;
+    top:-170px;
+font-style: normal;
+font-size: 35px !important;
+line-height: 50px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.careerHold{
+    /* background:linear-gradient(73.78deg, #0A142F 27.59%, #25506D 95.15%); */
+    background: black !important;
+}
+
+.knowYourCoZ{
+    width:100vw;
+    max-width: 1920px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+letter-spacing: -0.03em;
+font-style: normal;
+font-size: 80px;
+line-height: 112px;
+color: rgb(49, 195, 183);
+padding: 5% 0;
+
+}
+
+.carmob{
+    display: none;
+}
+
+.career2Last{
+    /* background:url(../../../public/career.webp); */
+    background-color: black;
+    min-height:62vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    gap:30px;
+    /* padding: 0 20vw; */
+}
+.career2Last div{
+    font-family: 'lato',sans-serif;
+    font-weight: 400 !important;
+font-style: normal;
+font-size: 77.8888px;
+line-height: 115%;
+text-align: center;
+color: #FFFFFF;
+width: 100vw;
+}
+
+.careerBut{
+    background: linear-gradient(133deg, rgba(147, 199, 192, 0.50) 1.22%, rgba(0, 255, 224, 0.63) 1.23%, rgba(27, 48, 52, 0.45) 100%);
+        border-radius: 10px;
+    width: 335px;
+    height: 70px;
+    border: 1.6px solid rgb(174,234,227);
+    cursor: pointer;
+}
+
+.careerBut span{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+font-style: normal;
+font-size: 36px;
+line-height: 62px;
+text-align: center;
+color: #FFFFFF;
+letter-spacing: -0.03em;
+}
+
+.cultureweb{
+    margin-top:-14vh;
+}
+
+@media only screen and (min-width:1900px){
+    .cultureweb{
+        margin-top:-8vh;
+    }
+
+}
+
+@media only screen and (max-width:1000px){
+    .career2Last div{
+        font-size: 68px !important;
+    }
+}
+@media only screen and (max-width:840px){
+    .knowYourCoZ{
+        font-size:60px;
+    }
+    .careerSecondTextnew{
+        font-size: 25px;
+line-height: 15px;
+    }
+    .whatweoffer{
+        font-size: 70px !important;
+    }
+    .aboutUsMainText{
+        display: none !important;
+    }
+    .aboutUsMainButton{
+        display: none !important;
+    }
+    .careerBut{
+        width:230px;
+        height:70px;
+    }
+    .careerBut span{
+        font-size: 45px;
+    }
+    
+
+}
+@media only screen and (max-width:700px){
+    .culturemob{
+        display: block;
+    }
+    .careerSecond {
+        min-height: 65vh !important;
+      }
+    .careerMain{
+        min-height: auto;
+    }
+    .cultureweb{
+        margin-top: 0px;
+    }
+    .horizontalCar{
+        display: none !important;
+    }
+    .carmob{
+        display: block;
+        /* animation: scaling 1s linear 1; */
+    }
+    .image1{
+        width:45vw;
+        height: auto;
+    }
+
+    .carmobsub1{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        margin-top: 20vw;
+    }
+    .carmobsub2{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vw;
+    }
+    .image2{
+        width: 36vw;
+        height: 20vw;
+    }
+    .imgBottomText {
+        font-size: 3vw !important;
+        line-height: 3vw!important;
+        top:1vw !important;
+        left:0px !important;
+    }
+    .image3{
+        width: 50vw;
+        height: auto;
+    }
+    .careerSecond{
+        overflow-x: hidden !important;
+        min-height: 85vh;
+        background: linear-gradient(181.8deg, #000000 20.84%, #000C2A 98.47%);
+    }
+    .carmob {
+        transform: scale(1.4);
+        transition: opacity 1.5s, transform 1.5s;
+      }
+      
+      .carmobVisible {
+        opacity: 1;
+        transform: scale(1);
+      }
+      .whatweoffer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6vw;
+        padding: auto;
+        font-size: 9vw !important;
+
+      }
+      .career2Last {
+        min-height: 35vh;
+       
+    }
+    }
+@keyframes scaling{
+    0%{
+        transform: scale(0.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width:550px){
+    .knowYourCoZ{
+        font-size:40px;
+    }
+    .careerSecondTextnew{
+        font-size: 16px;
+line-height: 15px;
+    }
+    .whatweoffer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 57px 0 20px 0 !important;
+line-height: 25px !important;
+font-size: 6vw !important;
+    }
+
+    .career2Last div{
+        font-size: 8vw !important;
+/* line-height: 31px; */
+    }
+    .careerBut{
+        width: 120px;
+height: 30px;
+    }
+    .careerBut span{
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .horizontalImagesnew {
+        width: 10vw    ;
+        margin-left: 26%;
+                border-radius: 0px;
+    }
+}
+
+
+
+
+/* .... */
+.careerSecond {
+    position: relative;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    height: 100vh !important;
+        overflow: hidden !important;
+  }
+
+  @media only screen and (max-width:700px){
+    .careerSecond {
+        position: relative;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        white-space: nowrap;
+        height: auto !important;
+            overflow: hidden !important;
+      }
+  }
+
+  @media only screen and (min-width:1900px){
+    .careerSecond {
+        height: 65vh !important;
+      }
+  }
+  .paddingleft{
+    margin-left: 5%;
+  }
+  .carouselItem {
+    display: inline-block;
+    scroll-snap-align: start;
+  }
+  
+  /* .horizontalImagesnew {
+    width: 100%;
+    height: auto;
+  } */
+/*   
+  .imgBottomText {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+  }
+   */
+  .fixedPosition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .marginTop {
+    margin-top: 50px; /* Adjust the value as needed */
+  }
+
+  .careerSecond.fixedPosition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .aboutUsSecondB.marginTop {
+    margin-top: 100vh;
+  }

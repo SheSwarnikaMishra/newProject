@@ -1,0 +1,375 @@
+@import url(//db.onlinewebfonts.com/c/f5f6ff7f3ec1bc2c964b9a8d5122840b?family=Lab+Sans+Pro+Light);
+
+.Zpod1st {
+  background-image: url("/public/Zpod.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.zpodtop {
+  width: 43vw;
+  max-width: 850px;
+  border-radius: 43.5833px;
+  position: relative;
+  left: 11%;
+  top: 6%;
+}
+.zpodmove {
+  width: 43vw;
+  border-radius: 43.5833px;
+  position: relative;
+  right: 11%;
+  top: 6%;
+}
+
+.Zpod2ndsub2 {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -92vh;
+  gap: 20px;
+}
+
+.Zcar {
+  margin-top: 3vh;
+  height: 90vh;
+}
+
+
+.Zpod2ndsub1 {
+  height: 100vh;
+  width: 100vw;
+}
+
+.winter {
+  height: 100%;
+  width: 100%;
+}
+
+.Zpod3rd {
+  display: flex;
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+  justify-content: space-evenly;
+  /* background: #9fc6c1; */
+  background: #020809;
+}
+
+.Zpod3rdOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Zpod3rdTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  gap:7%;
+}
+
+.Zpod3rdTwo1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 50px;
+  line-height: 67px;
+  text-align: center;
+  color: white;
+}
+
+.Zpod3rdTwo2 {
+  font-family: "lato", sans-serif;
+  font-style: normal;
+  /* font-weight: 250; */
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: justify;
+
+  color: white;
+}
+
+.Zpod4th {
+  display: flex;
+  flex-direction: row-reverse;
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+  max-width:1920px;
+  background: rgba(5, 22, 23, 0.70);
+  justify-content: space-evenly;
+}
+
+.Zpod4thOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Zpod4thTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:40vw;
+  gap:7%;
+}
+
+#image {
+  max-width: 100%;
+
+  transform-origin: top center;
+  transition: transform 0.2s ease;
+}
+
+/* horizontal carousel */
+.careerSecondText {
+  font-family: "Alumni Sans", sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #ffffff;
+}
+
+.careerSecond {
+  /* background:linear-gradient(73.78deg, #0A142F 27.59%, #25506D 95.15%); */
+  min-height: 95vh;
+  height: auto;
+}
+
+.horizontalCar {
+  display: flex;
+  position: sticky !important;
+  top: 0 !important;
+
+  overflow-x: scroll;
+  gap: 104px;
+}
+
+.horizontalCar::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontalImages {
+  width: 388px;
+  height: 300px;
+  border-radius: 40px;
+}
+
+.horizontalCar div:nth-child(even) {
+  margin-top: 190px;
+}
+
+.whatweoffer {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 112px;
+  padding: 57px 0 20px 121px;
+  color: #68EBDB;
+}
+
+.imgBottomText {
+  font-family: "lato", sans-serif !important;
+  position: relative;
+  top: 15px !important;
+  /* left: -52px; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.careerHold {
+  background: linear-gradient(73.78deg, #0a142f 27.59%, #25506d 95.15%);
+}
+
+.textT1 {
+  font-family: "Lab Sans Pro Light", sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 80px;
+  line-height: 90px;
+  text-align: center;
+  color: #0e1c40;
+}
+
+.textT2 {
+  font-family: "nunito", sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  color: #0e1c40;
+  padding: 0 8%;
+}
+
+@media only screen and (max-width: 1050px) {
+  .Zpod3rdTwo2 {
+    font-size: 3vw;
+  }
+  .Zpod4thTwo {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Zpod3rd {
+    flex-direction: column;
+    height: auto;
+    padding-top: 10%;
+  }
+  .zpodtop {
+    position: unset;
+    width: 100vw;
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+  .Zpod3rdTwo {
+    min-height: 80vh;
+    height: auto;
+    padding: 0px 20%;
+    width: 60vw;
+  }
+  .Zpod3rdTwo1 {
+    font-weight: 600;
+
+    font-size: 30px;
+    line-height: 10vw;
+  }
+  .Zpod3rdTwo2 {
+    font-size: 20px;
+  }
+  .Zpod4th {
+    flex-direction: column;
+  }
+  .zpodmove {
+    position: unset;
+    width: 100vw;
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+  .Zpod4thTwo {
+    padding: 0 20%;
+    width: 60vw;
+    gap: 0px;
+  }
+  .lineH {
+    line-height: 90px !important;
+  }
+  .tech6 {
+   
+    min-height: 100vh !important;
+    
+}
+  .tech6img {
+    width: 90vw !important;
+    height: auto !important;
+  }
+  .tech6text1 {
+    font-size: 10vw !important;
+  }
+  .tech6text2 {
+    font-size: 4vw !important;
+    line-height: 6vw !important;
+    padding: 0px 10% !important;
+  }
+}
+
+@media only screen and (min-width:1800px){
+  .Zpod3rdTwo{
+    padding: 0px 186px;
+    gap: 50px;
+    max-width: 842px;
+  }
+  .Zpod4thTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    gap: 50px;
+    position: relative;
+    left: -6%;
+    max-width: 842px;
+}
+  .zpodmove {
+    width: 43vw;
+    max-width: 851px;
+    border-radius: 43.5833px;
+    position: relative;
+    right: 11%;
+    top: 6%;
+}
+}
+
+.aboutsub{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+min-height: 50vh;
+color:#fff;
+font-size: 20px;
+text-align: justify;
+padding:0 20% 10% 20%;
+}
+
+.aboutsub1{
+  font-size: 40px;
+  font-family: 'Lato';
+}
+.aboutsub2{
+  font-size: 60px;
+  font-family: 'Montserrat';
+    letter-spacing: -0.03em;
+
+}
+.aboutsub3{
+  font-size: 20px;
+  font-family: 'Lato';
+
+}
+
+@media only screen and (max-width:700px){
+  .aboutsub1{
+    font-size: 7vw;
+    font-family: 'Lato';
+  }
+  .aboutsub2{
+    font-size: 60px;
+    font-family: 'Montserrat';
+      letter-spacing: -0.03em;
+  
+  }
+  .aboutsub3{
+    font-size: 3.5vw;
+    font-family: 'Lato';
+  
+  }
+ 
+}

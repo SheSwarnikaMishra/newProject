@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500&display=swap");
+@font-face {
+  font-family: "Lab Sans Pro Thin";
+  font-weight: bold;
+  src: local("Lab Sans Pro Thin"),
+    url("../../lab-sans-pro-cufonfonts-webfont/Lab\ Sans\ Pro-Thin.woff")
+      format("woff");
+}
+@import url(//db.onlinewebfonts.com/c/f5f6ff7f3ec1bc2c964b9a8d5122840b?family=Lab+Sans+Pro+Light);
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+.aboutusTri{
+  width: 100vw;
+  max-width:1920px;
+  min-height: 310vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* background: black; */
+  /* background: linear-gradient(1.97deg, #070E21 10.2%, #183354 99.16%); */
+  background: linear-gradient(2.47deg, #151618 8.59%, #0B162B 98.76%);
+  
+}
+
+
+.aboutusTrifirst{
+  width:50%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  /* transition: transform 2s ease; */
+  justify-content: center;
+
+}
+.aboutusTriSecond{
+  width:50%;
+  display: none;
+  padding-top: 100px;
+ 
+}
+
+.aboutusTriangle{
+  width:20vw;
+  height:22vw;
+}
+
+.aboutusli1,
+.aboutusli2,
+.aboutusli3{
+  font-family: "lato", sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 101px;
+text-align: center;
+color: #FFFFFF;
+}
+.aboutusli1{
+  /* padding-top: 70px; */
+  padding-left: 10px;
+}
+.aboutusli3{
+  display: flex;
+  justify-content: space-around;
+  gap: 108px;
+  margin-left: 14px;
+  margin-top: -113px;
+}
+
+.scale-up-new{
+  transform: scale(1.5);
+  transition:transform 2s;
+}
+
+
+
+.rotate-new{
+  transform: rotate(90deg);
+}
+
+.lirotate1{
+  transform: rotate(-90deg);
+}
+.licancelrotate{
+  transform: rotate(0deg);
+}
+.lirotate2{
+  transform: rotate(-90deg);
+}
+.lirotate3{
+  transform: rotate(-90deg);
+}
+
+.display-flex{
+  display: flex;
+  flex-direction: column;
+  gap:60px;
+}
+.topping{
+  display: none;
+}
+.display-flex2{
+  display: flex !important;
+  gap:60px;
+}
+
+.alignend{
+  
+  align-items: flex-end !important;
+}
+
+.aUFourthBoxChild2{
+  display: flex;
+  flex-direction: column;
+  width:48vw;
+  max-width:850px;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  height: 100vh;
+  padding-top: 75px;
+
+}
+
+.aUFourthBoxChild2Head{
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100px;
+text-align: center;
+color: #32acb1;
+}
+
+.aUFourthBoxChild2Text{
+  font-family: 'lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0 77px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.fixed-display{
+  position: fixed;
+  top:0;
+  left: 0%;
+  transition: transform 0s !important;
+}
+
+.fixing{
+  align-items: flex-end !important;
+  width:100% !important;
+  position: relative;
+  left: -30px;
+
+}
+
+@media only screen and (min-width:1800px) and (max-width:1900px){
+  .fixing{
+    left: -71px;
+  
+  }
+
+}
+@media only screen and (min-width:1900px){
+  .fixing{
+    left: -110px;
+  
+  }
+
+}
+
+@media only screen and (max-width:1230px){
+.aUFourthBoxChild2{
+  gap:4px;
+}
+.aUFourthBoxChild2Head{
+  font-size: 60px;
+}
+.aUFourthBoxChild2Text{
+  font-size: 22px;
+}
+}
+@media only screen and (max-width:950px){
+
+.aUFourthBoxChild2Head{
+  font-size: 47px;
+}
+.aUFourthBoxChild2Text{
+  font-size: 18px;
+}
+}
+
+@media only screen and (max-width:700px){
+  .aUFourthBoxChild2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 100vh;
+}
+
+.topping a div{
+  top:0px !important;
+  height: 10px !important;
+    width: 10px !important;
+}
+.aboutusTri {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutusTriSecond {
+  width: 100%;
+  padding-top: 100px;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.aboutusTrifirst {
+  width: 50vw;
+    height: 50vw;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0s ease;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top:-20px;
+}
+.aUFourthBoxChild2 {
+  height: auto;
+  padding-top: 0px;
+  scroll-snap-align: start;
+}
+.aboutusTriSecond {
+  padding-top: 10px;
+  scroll-snap-type: x mandatory;
+}
+.lirotate1 {
+  transform: rotate(0deg) ;
+}
+.lirotate3 {
+  transform: rotate(0deg);
+}
+
+.aboutusli1, .aboutusli2, .aboutusli3 {
+  font-size: 22px;
+  line-height: 0px;
+}
+.aUFourthBoxChild2Text {
+  font-size: 19px;
+  padding: 0 27px;
+  line-height: 25px;
+}
+.aboutusli3 {
+  display: flex;
+  justify-content: space-around;
+  gap: 0px; 
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.item2{
+  position: absolute;
+  top: 74%;
+  left: -2%;
+}
+.item1{
+  position: absolute;
+  top: 74%;
+  right: -2%;
+}
+.aboutusli1 {
+  position: absolute;
+  top: 7%;
+  left: 31%;
+
+}
+.flipDiv{
+  transform: scale(-1);
+  transition:transform 0s ;
+}
+.scale-up-new2{
+  transform: scale(1.6);
+  transition:transform 2s;
+}
+.rotate-new2{
+  transform: rotate(180deg);
+  transition:transform 2s ;
+}
+
+}
+
+@media only screen and (min-width:2400px){
+  .fixing {
+    align-items: flex-end !important;
+    width: 100% !important;
+    position: relative;
+    left: -107px;
+}
+}
